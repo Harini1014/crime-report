@@ -1,0 +1,70 @@
+/* Same as inline styles from templates, consolidated here */
+body {
+    font-family: Arial, sans-serif;
+    padding: 30px;
+    background-color: #f9f9f9;
+}
+h2 {
+    color: #933B6D;
+    text-align: center;
+}
+form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 400px;
+}
+label {
+    font-weight: bold;
+}
+input[type="file"],
+select,
+button {
+    width: 100%;
+    padding: 10px;
+    margin-top: 8px;
+    margin-bottom: 20px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+button {
+    background-color: #933B6D;
+    color: white;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #722a52;
+}
+.back-button {
+    margin-top: 30px;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #933B6D;
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+}
+.back-button:hover {
+    background-color: #722a52;
+}
+audio {
+    margin-top: 15px;
+    width: 100%;
+}
+.crime-analysis {
+    background: #faf5fb;
+    border: 2px solid #933B6D;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.ipc-block {
+    background: #f9f9f9;
+    border-left: 5px solid #933B6D;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 8px;
+}

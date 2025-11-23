@@ -1,0 +1,197 @@
+{
+  "120B": {
+    "title": "Criminal Conspiracy",
+    "description": "Agreement between two or more persons to commit an illegal act.",
+    "punishment": "Punishment varies depending on offence conspired"
+  },
+  "141": {
+    "title": "Unlawful Assembly",
+    "description": "An assembly of 5 or more persons with a common unlawful object.",
+    "punishment": "Up to 6 months imprisonment or fine"
+  },
+  "147": {
+    "title": "Rioting",
+    "description": "Use of force or violence by an unlawful assembly.",
+    "punishment": "Up to 2 years imprisonment + fine"
+  },
+  "149": {
+    "title": "Offence by Unlawful Assembly",
+    "description": "Every member of an unlawful assembly is guilty of the offence committed.",
+    "punishment": "Same as the principal offence"
+  },
+  "153A": {
+    "title": "Promoting Enmity",
+    "description": "Promoting enmity between groups on grounds of religion, race, etc.",
+    "punishment": "Up to 3 years imprisonment + fine"
+  },
+  "268": {
+    "title": "Public Nuisance",
+    "description": "An act that causes injury, danger or annoyance to the public.",
+    "punishment": "Fine or imprisonment depending on severity"
+  },
+  "302": {
+    "title": "Murder",
+    "description": "Causing death of a person with intent.",
+    "punishment": "Life imprisonment or death penalty"
+  },
+  "304": {
+    "title": "Culpable Homicide Not Amounting to Murder",
+    "description": "Causing death without intention to kill.",
+    "punishment": "Up to 10 years imprisonment or fine"
+  },
+  "307": {
+    "title": "Attempt to Murder",
+    "description": "Attempting to cause death by doing an act.",
+    "punishment": "Up to 10 years imprisonment or life imprisonment"
+  },
+  "323": {
+    "title": "Voluntarily Causing Hurt",
+    "description": "Causing bodily pain or disease to someone.",
+    "punishment": "Up to 1 year imprisonment or fine"
+  },
+  "324": {
+    "title": "Causing Hurt by Dangerous Weapons",
+    "description": "Hurt caused using weapons like knife, gun, etc.",
+    "punishment": "Up to 3 years imprisonment + fine"
+  },
+  "325": {
+    "title": "Voluntarily Causing Grievous Hurt",
+    "description": "Causing serious bodily harm to another person.",
+    "punishment": "Up to 7 years imprisonment + fine"
+  },
+  "326": {
+    "title": "Causing Grievous Hurt with Dangerous Weapons",
+    "description": "Grievous hurt caused using weapons.",
+    "punishment": "Up to life imprisonment or 10 years imprisonment"
+  },
+  "354": {
+    "title": "Assault on Woman",
+    "description": "Assault or criminal force to outrage modesty of a woman.",
+    "punishment": "Up to 5 years imprisonment + fine"
+  },
+  "354A": {
+    "title": "Sexual Harassment",
+    "description": "Physical contact, unwelcome sexual advances, or harassment.",
+    "punishment": "Up to 3 years imprisonment + fine"
+  },
+  "354B": {
+    "title": "Assault with Intent to Disrobe",
+    "description": "Assaulting woman with intent to disrobe.",
+    "punishment": "3 to 7 years imprisonment + fine"
+  },
+  "354C": {
+    "title": "Voyeurism",
+    "description": "Watching or capturing images of women without consent.",
+    "punishment": "Up to 7 years imprisonment + fine"
+  },
+  "354D": {
+    "title": "Stalking",
+    "description": "Repeated following or contact against the will of a woman.",
+    "punishment": "Up to 3 years imprisonment + fine"
+  },
+  "363": {
+    "title": "Kidnapping",
+    "description": "Taking away a minor or person against their will.",
+    "punishment": "Up to 7 years imprisonment + fine"
+  },
+  "364": {
+    "title": "Kidnapping for Murder",
+    "description": "Kidnapping with intent to murder.",
+    "punishment": "Life imprisonment or death penalty"
+  },
+  "366": {
+    "title": "Kidnapping/Abducting Woman for Marriage",
+    "description": "Kidnapping a woman to compel her marriage.",
+    "punishment": "Up to 10 years imprisonment + fine"
+  },
+  "376": {
+    "title": "Rape",
+    "description": "Sexual assault without consent.",
+    "punishment": "7 years to life imprisonment"
+  },
+  "376D": {
+    "title": "Gang Rape",
+    "description": "Sexual assault by multiple persons.",
+    "punishment": "20 years to life imprisonment"
+  },
+  "379": {
+    "title": "Theft",
+    "description": "Dishonestly taking property out of someone’s possession.",
+    "punishment": "Up to 3 years imprisonment or fine"
+  },
+  "380": {
+    "title": "Theft in Dwelling House",
+    "description": "Theft committed in a house, tent, or vessel.",
+    "punishment": "Up to 7 years imprisonment + fine"
+  },
+  "392": {
+    "title": "Robbery",
+    "description": "Theft with violence or threat.",
+    "punishment": "Up to 10 years imprisonment + fine"
+  },
+  "394": {
+    "title": "Voluntarily Causing Hurt in Robbery",
+    "description": "Hurt caused while committing robbery.",
+    "punishment": "Up to 10 years imprisonment + fine"
+  },
+  "395": {
+    "title": "Dacoity",
+    "description": "Robbery committed by 5 or more persons.",
+    "punishment": "Life imprisonment or 10 years imprisonment"
+  },
+  "406": {
+    "title": "Criminal Breach of Trust",
+    "description": "Dishonest misappropriation of property entrusted.",
+    "punishment": "Up to 3 years imprisonment + fine"
+  },
+  "409": {
+    "title": "Criminal Breach of Trust by Public Servant",
+    "description": "Breach of trust by banker, merchant, agent, or public servant.",
+    "punishment": "Life imprisonment or 10 years imprisonment"
+  },
+  "411": {
+    "title": "Dishonestly Receiving Stolen Property",
+    "description": "Possessing or buying stolen property.",
+    "punishment": "Up to 3 years imprisonment + fine"
+  },
+  "415": {
+    "title": "Cheating",
+    "description": "Deceiving a person fraudulently to deliver property.",
+    "punishment": "Up to 1 year imprisonment or fine"
+  },
+  "420": {
+    "title": "Cheating and Dishonest Delivery of Property",
+    "description": "Cheating and dishonestly inducing delivery of property.",
+    "punishment": "Up to 7 years imprisonment + fine"
+  },
+  "468": {
+    "title": "Forgery for Cheating",
+    "description": "Forgery committed with intent to cheat.",
+    "punishment": "Up to 7 years imprisonment + fine"
+  },
+  "471": {
+    "title": "Using Forged Document",
+    "description": "Using a forged document as genuine.",
+    "punishment": "Up to 2 years imprisonment or fine"
+  },
+  "498A": {
+    "title": "Cruelty by Husband/Relatives",
+    "description": "Cruelty by husband or his relatives towards woman.",
+    "punishment": "Up to 3 years imprisonment + fine"
+  },
+  "504": {
+    "title": "Intentional Insult",
+    "description": "Intentional insult with intent to provoke breach of peace.",
+    "punishment": "Up to 2 years imprisonment + fine"
+  },
+  "506": {
+    "title": "Criminal Intimidation",
+    "description": "Threatening another with injury to person or property.",
+    "punishment": "Up to 7 years imprisonment + fine"
+  },
+  "509": {
+    "title": "Word/Gesture Insulting Woman",
+    "description": "Insulting modesty of woman by words, sounds or gestures.",
+    "punishment": "Up to 3 years imprisonment + fine"
+  }
+}

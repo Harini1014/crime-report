@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FIR Simplification Result</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <style>
+        body { font-family: Arial, sans-serif; padding: 30px; background-color: #fffdfd; }
+        h2 { color: #933B6D; }
+        pre { background: #f2f2f2; padding: 15px; border-left: 4px solid #933B6D; white-space: pre-wrap; word-wrap: break-word; max-height: 400px; overflow-y: auto; }
+        .back-button { margin-top: 30px; display: inline-block; padding: 10px 20px; background-color: #933B6D; color: white; border-radius: 8px; text-decoration: none; }
+        .back-button:hover { background-color: #722a52; }
+        audio { margin-top: 15px; width: 100%; }
+        .crime-analysis { background: #faf5fb; border: 2px solid #933B6D; padding: 15px; margin-top: 20px; border-radius: 10px; }
+        .ipc-block { background: #f9f9f9; border-left: 5px solid #933B6D; margin: 10px 0; padding: 10px; border-radius: 8px; }
+        .form-container { margin-top: 20px; }
+        .form-container input[type="text"], .form-container button { width: 100%; padding: 10px; margin-top: 5px; border-radius: 6px; border: 1px solid #ccc; }
+        .form-container button { background-color: #933B6D; color: white; border: none; cursor: pointer; }
+        .form-container button:hover { background-color: #722a52; }
+    </style>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    {% if error %}
+        <p style="color:red; font-weight: bold;">{{ error }}</p>
+    {% else %}
+        <h2>✅ Extracted FIR Text:</h2>
+        <pre>{{ extracted_text }}</pre>
+
+        <h2>💡 Simplified FIR Text (English):</h2>
+        <pre>{{ simplified_text }}</pre>
+
+        {% if translated_text %}
+            <h2>🌐 Translated Output ({{ user_language | upper }}):</h2>
+            <pre>{{ translated_text }}</pre>
+        {% endif %}
+
+        {% if audio_file %}
+            <h2>🔊 Audio Output:</h2>
+            <audio controls>
+                <source src="{{ url_for('static', filename=audio_file) }}" type="audio/mp3">
+                Your browser does not support the audio element.
+            </audio>
+        {% endif %}
+
+        <div class="crime-analysis">
+            <h2>🔍 Crime Analysis</h2>
+            {% if crime_type %}<p><b>Crime Type:</b> {{ crime_type }}</p>{% endif %}
+            {% if severity %}<p><b>Severity:</b> {{ severity }}</p>{% endif %}
+            {% if crime_outcome %}<p><b>Predicted Outcome:</b> {{ crime_outcome }}</p>{% endif %}
+        </div>
+
+        {% if ipc_results %}
+            <h2>📜 Auto-Extracted IPC Sections:</h2>
+            {% for ipc in ipc_results %}
+                <div class="ipc-block">
+                    <p><b>Section:</b> {{ ipc.section }}</p>
+                    <p><b>Description:</b> {{ ipc.description }}</p>
+                    <p><b>Punishment:</b> {{ ipc.punishment }}</p>
+                </div>
+            {% endfor %}
+        {% endif %}
+
+
+        {% if summary %}
+  <h2>📑 Legal Summary</h2>
+  <pre>{{ summary }}</pre>
+{% endif %}
+
+{% if term_explanations %}
+  <h2>📖 Key Legal Terms Explained</h2>
+  <ul>
+    {% for term, definition in term_explanations.items() %}
+      <li><b>{{ term }}</b>: {{ definition }}</li>
+    {% endfor %}
+  </ul>
+{% endif %}
+
+
+        <div class="form-container">
+            <h2>📜 Enter IPC Section for Details:</h2>
+            <form id="ipc-form">
+                <input type="text" id="ipc_section" name="ipc_section" placeholder="e.g., IPC 302" required>
+                <button type="submit">Get Details</button>
+            </form>
+            <div id="ipc-result" style="margin-top: 20px; background: #f2f2f2; padding: 10px; border-radius: 8px;"></div>
+        </div>
+
+        <div class="form-container">
+            <h2>📖 Look Up Complicated Words:</h2>
+            <form id="define-form">
+                <input type="hidden" name="language" value="{{ user_language }}">
+                <input type="text" id="word" name="word" placeholder="Enter word" required>
+                <button type="submit">Get Meaning</button>
+            </form>
+            <div id="meaning-result" style="margin-top: 20px; background: #f2f2f2; padding: 10px; border-radius: 8px;"></div>
+        </div>
+
+        <script>
+            $('#ipc-form').submit(function(e) {
+                e.preventDefault();
+                $.post('/get_ipc_details', {ipc_section: $('#ipc_section').val()}, function(data) {
+                    if (data.error) {
+                        $('#ipc-result').html('<p style="color:red;">' + data.error + '</p>');
+                    } else {
+                        $('#ipc-result').html('<p><b>Section:</b> ' + data.section + '</p>' +
+                                             '<p><b>Description:</b> ' + data.description + '</p>' +
+                                             '<p><b>Punishment:</b> ' + data.punishment + '</p>');
+                    }
+                });
+            });
+
+            $('#define-form').submit(function(e) {
+                e.preventDefault();
+                $.post('/define_word', $(this).serialize(), function(data) {
+                    if (data.error) {
+                        $('#meaning-result').html('<p style="color:red;">' + data.error + '</p>');
+                    } else {
+                        $('#meaning-result').html('<p><b>Meaning:</b> ' + data.meaning + '</p>');
+                    }
+                });
+            });
+        </script>
+    {% endif %}
+
+    <a href="/" class="back-button">🔙 Back to Upload</a>
+</body>
+</html>

@@ -1,0 +1,77 @@
+FIR_Text,Crime_Type,Severity
+"A man stole a bike at night",Theft,Low
+"The accused cheated using fake documents",Fraud,Medium
+"A person was murdered in his house",Murder,High
+"Cyber fraud using fake ATM card",Cybercrime,Medium
+"Burglary in house, gold worth ₹5 lakhs stolen",Burglary,High
+"Pickpocketing incident in crowded bus",Theft,Low
+"Mobile phone stolen at railway station",Theft,Low
+"Online scam promising jobs, money lost",Fraud,Medium
+"Armed robbery at a jewelry shop",Robbery,High
+"House burglary during midnight, valuables missing",Burglary,High
+"Cybercrime case of fake loan app",Cybercrime,Medium
+"Man attacked neighbor with knife",Assault,High
+"Attempt to murder case reported in village",Murder,High
+"ATM card cloned, money withdrawn illegally",Cybercrime,Medium
+"Snatching of handbag reported by woman",Theft,Low
+"Fake property documents used for land grabbing",Fraud,High
+"Child kidnapping case filed",Kidnapping,High
+"Drug peddling in school area detected",Drug,High
+"Domestic violence case reported by wife",DomesticViolence,Medium
+"Chain snatching incident near market",Robbery,Medium
+"Two-wheeler stolen from parking area",Theft,Low
+"Fraudulent loan documents submitted in bank",Fraud,Medium
+"Man found dead, suspected murder",Murder,High
+"Online shopping scam reported",Fraud,Low
+"Armed gang burglary in farmhouse",Burglary,High
+"Cyber fraud using phishing email",Cybercrime,Medium
+"Fight in street with physical injuries",Assault,Medium
+"Attempted robbery in ATM kiosk",Robbery,Medium
+"Domestic abuse complaint against husband",DomesticViolence,Medium
+"Illegal drug possession found in hostel",Drug,Medium
+"School student kidnapped while returning home",Kidnapping,High
+"Pickpocket gang caught at bus stand",Theft,Low
+"Cheque fraud case filed against businessman",Fraud,Medium
+"Cold-blooded murder of shopkeeper",Murder,High
+"Fake call center duping people",Fraud,Medium
+"Break-in at jewelry shop, gold stolen",Burglary,High
+"Cyber attack on social media account",Cybercrime,Low
+"Youth stabbed in public place",Assault,High
+"Snatching of gold chain from elderly woman",Robbery,Medium
+"Dowry harassment reported by woman",DomesticViolence,High
+"Drug smuggling across border caught",Drug,High
+"Kidnapping for ransom case filed",Kidnapping,High
+"Motorcycle theft reported at college campus",Theft,Low
+"Forgery of educational certificates",Fraud,Medium
+"Man shot dead during property dispute",Murder,High
+"Bank fraud involving fake signatures",Fraud,High
+"Burglary at government office, files stolen",Burglary,Medium
+"Cyber fraud involving fake lottery message",Cybercrime,Low
+"Assault on shopkeeper during quarrel",Assault,Medium
+"Robbery attempt at petrol bunk",Robbery,Medium
+"Dowry death case filed",DomesticViolence,High
+"Drug overdose case in club",Drug,Medium
+"Kidnapping attempt on school bus",Kidnapping,High
+"Handbag stolen from parked car",Theft,Low
+"Credit card fraud in online shopping",Fraud,Medium
+"Double murder case in outskirts",Murder,High
+"Fake insurance scam reported",Fraud,Medium
+"Night burglary in residential colony",Burglary,High
+"Phishing link used to hack account",Cybercrime,Medium
+"Group fight resulting in injuries",Assault,Medium
+"Armed robbery at bank branch",Robbery,High
+"Domestic violence with physical assault",DomesticViolence,High
+"Drug racket busted by police",Drug,High
+"Teen girl kidnapped by neighbor",Kidnapping,High
+"Chain snatching by bike thieves",Robbery,Medium
+"Stolen car recovered by police",Theft,Low
+"Fake passport racket busted",Fraud,High
+"Suspicious murder of businessman",Murder,High
+"Large scale online fraud case",Fraud,High
+"House burglary with laptop stolen",Burglary,Medium
+"Cyber fraud in mobile banking",Cybercrime,Medium
+"Street fight with knife attack",Assault,High
+"Highway robbery of truck",Robbery,High
+"Complaint of physical abuse by husband",DomesticViolence,Medium
+"Drug trafficking in local train",Drug,High
+"Kidnapping of child in fair",Kidnapping,High

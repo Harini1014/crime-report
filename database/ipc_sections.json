@@ -1,0 +1,46 @@
+{
+    "302": {
+        "description": "Punishment for murder",
+        "punishment": "Death penalty or life imprisonment and fine"
+    },
+    "304": {
+        "description": "Culpable homicide not amounting to murder",
+        "punishment": "Imprisonment for life, or imprisonment up to 10 years and fine"
+    },
+    "307": {
+        "description": "Attempt to murder",
+        "punishment": "Imprisonment up to 10 years and fine, or life imprisonment"
+    },
+    "323": {
+        "description": "Punishment for voluntarily causing hurt",
+        "punishment": "Imprisonment up to 1 year or fine up to ₹1,000 or both"
+    },
+    "324": {
+        "description": "Voluntarily causing hurt by dangerous weapons or means",
+        "punishment": "Imprisonment up to 3 years or fine or both"
+    },
+    "354": {
+        "description": "Assault or criminal force to woman with intent to outrage her modesty",
+        "punishment": "Imprisonment not less than 1 year which may extend to 5 years, and fine"
+    },
+    "376": {
+        "description": "Punishment for rape",
+        "punishment": "Imprisonment of not less than 10 years, may extend to life, and fine"
+    },
+    "376D": {
+        "description": "Gang rape",
+        "punishment": "Imprisonment not less than 20 years, may extend to life, and fine"
+    },
+    "379": {
+        "description": "Punishment for theft",
+        "punishment": "Imprisonment up to 3 years, or fine, or both"
+    },
+    "420": {
+        "description": "Cheating and dishonestly inducing delivery of property",
+        "punishment": "Imprisonment up to 7 years and fine"
+    },
+    "498A": {
+        "description": "Husband or relative of husband subjecting woman to cruelty",
+        "punishment": "Imprisonment up to 3 years and fine"
+    }
+}
