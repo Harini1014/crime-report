@@ -75,6 +75,17 @@
     {% endfor %}
   </ul>
 {% endif %}
+{% if evaluation %}
+<div style="border:1px solid #ccc; padding:12px; border-radius:10px; margin-top:15px;">
+    <h3>📊 Simplification Evaluation</h3>
+    <p><strong>Accuracy Score:</strong> {{ evaluation.accuracy_score }}%</p>
+    <p><strong>Meaning Similarity:</strong> {{ evaluation.cosine_similarity }}</p>
+    <p><strong>Keyword Retention:</strong> {{ evaluation.keyword_retention }}</p>
+    <p><strong>Compression Ratio:</strong> {{ evaluation.compression_ratio }}</p>
+    <p><strong>Readability:</strong> {{ evaluation.readability_original }} ➡ {{ evaluation.readability_simplified }}</p>
+</div>
+{% endif %}
+
 
 
         <div class="form-container">

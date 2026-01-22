@@ -1,77 +1,572 @@
-FIR_Text,Crime_Type,Severity
-"A man stole a bike at night",Theft,Low
-"The accused cheated using fake documents",Fraud,Medium
-"A person was murdered in his house",Murder,High
-"Cyber fraud using fake ATM card",Cybercrime,Medium
-"Burglary in house, gold worth ₹5 lakhs stolen",Burglary,High
-"Pickpocketing incident in crowded bus",Theft,Low
-"Mobile phone stolen at railway station",Theft,Low
-"Online scam promising jobs, money lost",Fraud,Medium
-"Armed robbery at a jewelry shop",Robbery,High
-"House burglary during midnight, valuables missing",Burglary,High
-"Cybercrime case of fake loan app",Cybercrime,Medium
-"Man attacked neighbor with knife",Assault,High
-"Attempt to murder case reported in village",Murder,High
-"ATM card cloned, money withdrawn illegally",Cybercrime,Medium
-"Snatching of handbag reported by woman",Theft,Low
-"Fake property documents used for land grabbing",Fraud,High
-"Child kidnapping case filed",Kidnapping,High
-"Drug peddling in school area detected",Drug,High
-"Domestic violence case reported by wife",DomesticViolence,Medium
-"Chain snatching incident near market",Robbery,Medium
-"Two-wheeler stolen from parking area",Theft,Low
-"Fraudulent loan documents submitted in bank",Fraud,Medium
-"Man found dead, suspected murder",Murder,High
-"Online shopping scam reported",Fraud,Low
-"Armed gang burglary in farmhouse",Burglary,High
-"Cyber fraud using phishing email",Cybercrime,Medium
-"Fight in street with physical injuries",Assault,Medium
-"Attempted robbery in ATM kiosk",Robbery,Medium
-"Domestic abuse complaint against husband",DomesticViolence,Medium
-"Illegal drug possession found in hostel",Drug,Medium
-"School student kidnapped while returning home",Kidnapping,High
-"Pickpocket gang caught at bus stand",Theft,Low
-"Cheque fraud case filed against businessman",Fraud,Medium
-"Cold-blooded murder of shopkeeper",Murder,High
-"Fake call center duping people",Fraud,Medium
-"Break-in at jewelry shop, gold stolen",Burglary,High
-"Cyber attack on social media account",Cybercrime,Low
-"Youth stabbed in public place",Assault,High
-"Snatching of gold chain from elderly woman",Robbery,Medium
-"Dowry harassment reported by woman",DomesticViolence,High
-"Drug smuggling across border caught",Drug,High
-"Kidnapping for ransom case filed",Kidnapping,High
-"Motorcycle theft reported at college campus",Theft,Low
-"Forgery of educational certificates",Fraud,Medium
-"Man shot dead during property dispute",Murder,High
-"Bank fraud involving fake signatures",Fraud,High
-"Burglary at government office, files stolen",Burglary,Medium
-"Cyber fraud involving fake lottery message",Cybercrime,Low
-"Assault on shopkeeper during quarrel",Assault,Medium
-"Robbery attempt at petrol bunk",Robbery,Medium
-"Dowry death case filed",DomesticViolence,High
-"Drug overdose case in club",Drug,Medium
-"Kidnapping attempt on school bus",Kidnapping,High
-"Handbag stolen from parked car",Theft,Low
-"Credit card fraud in online shopping",Fraud,Medium
-"Double murder case in outskirts",Murder,High
-"Fake insurance scam reported",Fraud,Medium
-"Night burglary in residential colony",Burglary,High
-"Phishing link used to hack account",Cybercrime,Medium
-"Group fight resulting in injuries",Assault,Medium
-"Armed robbery at bank branch",Robbery,High
-"Domestic violence with physical assault",DomesticViolence,High
-"Drug racket busted by police",Drug,High
-"Teen girl kidnapped by neighbor",Kidnapping,High
-"Chain snatching by bike thieves",Robbery,Medium
-"Stolen car recovered by police",Theft,Low
-"Fake passport racket busted",Fraud,High
-"Suspicious murder of businessman",Murder,High
-"Large scale online fraud case",Fraud,High
-"House burglary with laptop stolen",Burglary,Medium
-"Cyber fraud in mobile banking",Cybercrime,Medium
-"Street fight with knife attack",Assault,High
-"Highway robbery of truck",Robbery,High
-"Complaint of physical abuse by husband",DomesticViolence,Medium
-"Drug trafficking in local train",Drug,High
-"Kidnapping of child in fair",Kidnapping,High
+"Bike stolen from parking near hospital",Theft,Low
+"Gold chain missing during temple festival",Theft,Medium
+"Mobile snatched from student near bus stop",Theft,Low
+"Laptop stolen from office drawer during lunch break",Theft,Medium
+"Handbag theft reported in crowded supermarket",Theft,Low
+"Scooter stolen from apartment basement",Theft,Low
+"Cash stolen from shop counter at closing time",Theft,Medium
+"Pickup truck stolen from village roadside",Theft,Medium
+"Wallet stolen while traveling in local train",Theft,Low
+"Petty theft of shop items by unknown individual",Theft,Low
+"Electric cycle stolen near metro station",Theft,Medium
+"Jewelry stolen during house celebration",Theft,High
+"Camera stolen from tourist at beach area",Theft,Low
+"Wires stolen from construction building site",Theft,Medium
+"Car battery stolen from street-parked vehicle",Theft,Low
+"Two-wheeler theft reported outside college parking",Theft,Low
+"ATM card stolen from elderly woman in market",Theft,Medium
+"Smartwatch missing from gym locker",Theft,Low
+"Clothes stolen from washing machine area",Theft,Low
+"Stolen cash from donation box in temple",Theft,Medium
+"Helmet stolen from mall parking two-wheeler stand",Theft,Low
+"Cycle stolen from school bicycle rack",Theft,Low
+"Gold earrings missing after house party",Theft,Medium
+"Phone stolen while charging in railway waiting hall",Theft,Low
+"Books stolen from hostel study room",Theft,Low
+"Mobile theft reported during concert event",Theft,Low
+"Theft of costly perfume bottles from mall shop",Theft,Medium
+"Tablets stolen from medical shop storage",Theft,High
+"Vehicle number plate stolen and replaced illegally",Theft,Medium
+"Theft of copper cables from industrial shed",Theft,High
+"Child’s tricycle stolen from playground",Theft,Low
+"School bag stolen from exam hall corridor",Theft,Low
+"Pet dog stolen while tied outside shop",Theft,Medium
+"Bicycle stolen from bus terminal gate",Theft,Low
+"Wallet theft reported in public library",Theft,Low
+"Mobile phone stolen during college fest",Theft,Low
+"Jewelry stolen from guest room cupboard",Theft,High
+"Motorbike theft near petrol bunk",Theft,Medium
+"Parcel stolen from doorstep before delivery",Theft,Low
+"LED lights stolen from garden area",Theft,Low
+"Electric tools stolen at renovation site",Theft,Medium
+"Mobile stolen during theater interval",Theft,Low
+"Silver anklets missing from dressing room",Theft,Medium
+"Cycle stolen outside tuition center",Theft,Low
+"Theft of GPS tracker equipment from car",Theft,Medium
+"Valuable sports kit stolen from stadium locker",Theft,Medium
+"Shopping bag stolen in metro escalator area",Theft,Low
+"Money stolen from auto driver wallet by passenger",Theft,Low
+"Bike stolen after breaking handle lock",Theft,Medium
+"Stolen luxury watch from hotel changing room",Theft,High
+"Purity gold necklace missing from bedroom drawer",Theft,High
+"Construction materials stolen overnight",Theft,Medium
+"Electric scooter stolen from roadside charging point",Theft,Medium
+"Temple donation theft by unknown group",Theft,High
+"Phone theft in ATM queue during crowd rush",Theft,Low
+"Headphones stolen from student hostel bed",Theft,Low
+"Branded shoes stolen from gym shelf",Theft,Low
+"Milk delivery vehicle stolen during morning rounds",Theft,Medium
+"Stolen spare tyre from parked SUV",Theft,Low
+"Handbag theft at wedding reception hall",Theft,Medium
+"Gas cylinder stolen from house backyard",Theft,Medium
+"Mobile missing from office meeting table",Theft,Low
+"Bicycle theft at railway footbridge stand",Theft,Low
+"Medicine box stolen from pharmacy counter",Theft,Medium
+"Gold bracelet missing after community event",Theft,High
+"Pet cat taken by unknown person near market",Theft,Medium
+"Printer stolen from school administrative room",Theft,Medium
+"Phone stolen from auto rickshaw passenger",Theft,Low
+"CCTV shows stranger stealing parcels from store room",Theft,High
+"Bike stolen during heavy rain near theater",Theft,Medium
+"Fabric materials stolen from boutique workshop",Theft,Medium
+"Jewelry box missing from locked cupboard",Theft,High
+"Street vendor phone stolen while serving customers",Theft,Low
+"Sports cycle stolen from playground rack",Theft,Medium
+"Important documents stolen from office drawer",Theft,High
+"Household utensils stolen from village home",Theft,Low
+"Money stolen from traveling salesman bag",Theft,Medium
+"LED TV stolen from unoccupied apartment",Theft,High
+"Mobile theft inside city bus during rush hours",Theft,Low
+"Stolen saree packs from textile store",Theft,Medium
+"Costly ear pods stolen from student hostel",Theft,Low
+"Theft of LPG cylinders from storage point",Theft,High
+"Bicycle theft near temple parking space",Theft,Low
+"Milk cans stolen from dairy mini-truck",Theft,Medium
+"High-end laptop stolen from co-working space",Theft,High
+"Locker tampered and jewelry stolen",Theft,High
+"Mobile stolen from hotel reception area",Theft,Low
+"Pet puppy stolen from apartment play zone",Theft,Medium
+"Car wheel covers stolen during night",Theft,Low
+"Clothes stolen from roadside laundry shop",Theft,Low
+"Delivery box stolen from parked bike",Theft,Medium
+"Mobile theft during stage performance",Theft,Low
+"Electric generator parts stolen from factory",Theft,High
+"Two-wheeler stolen from cinema front lot",Theft,Low
+"Amulet theft reported from elderly woman's room",Theft,Medium
+
+"Fake signature used for bank loan approval",Fraud,High
+"UPI phishing link caused money loss",Fraud,Medium
+"Job offer scam collected deposits from victims",Fraud,Medium
+"Fake jewelry sold to buyers in marketplace",Fraud,Medium
+"Loan fraud using forged documents",Fraud,High
+"Online shopping scam delivered empty package",Fraud,Low
+"Investment scheme cheated multiple families",Fraud,High
+"ATM card skimming leading to illegal withdrawal",Fraud,Medium
+"Electric bill scam asked for immediate payment",Fraud,Low
+"Social media dating scam took gift vouchers",Fraud,Medium
+"Property fraud using duplicate registration papers",Fraud,High
+"Fake admission promise cheated students",Fraud,Medium
+"Phishing email asking card OTP",Fraud,Low
+"Business partnership scam transferred funds",Fraud,High
+"Counterfeit currency used in shop purchase",Fraud,Medium
+"Fake insurance agent cheated senior citizens",Fraud,Medium
+"Government job scam collected exam fee",Fraud,Medium
+"QR code scam at fuel station",Fraud,Low
+"Loan EMI fraud caused huge losses",Fraud,High
+"Gift card fraud in mobile gaming app",Fraud,Low
+"Fake online bakery orders collected advance",Fraud,Low
+"Share market tip fraud misused account",Fraud,High
+"Cheque bounce fraud on small trader",Fraud,Medium
+"Ponzi scheme cheated local community",Fraud,High
+"Google form scam collected personal data",Fraud,Low
+"Fake LIC premium update call cheated user",Fraud,Medium
+"Fraudulent home rental agreement",Fraud,High
+"E-commerce fraud tricked elderly man",Fraud,Medium
+"Fake fuel cashback offer cheated drivers",Fraud,Low
+"Land purchase fraud with forged ID",Fraud,High
+"Credit limit scam using fake bank app",Fraud,Medium
+"Fake internship letters issued by agent",Fraud,Low
+"Telegram channel scam made people invest",Fraud,High
+"Digital wallet scam debited savings",Fraud,High
+"Subscription renewal call defrauded customer",Fraud,Low
+"Bill payment fraud on electricity app",Fraud,Low
+"Fake credit card upgrade call",Fraud,Low
+"College seat blocked using fake receipts",Fraud,High
+"WhatsApp OTP fraud debited payment",Fraud,Medium
+"Event ticket fraud through fake links",Fraud,Low
+"Fake stock brokering app cheated public",Fraud,High
+"Fake courier SMS link caused payment loss",Fraud,Medium
+"Fake PAN card submitted for loan approval",Fraud,High
+"Fake charity website collected donations",Fraud,Medium
+"Fake cashback scheme in grocery app",Fraud,Low
+"Electric meter tampering fraud case",Fraud,High
+"False insurance claim using fake medical bills",Fraud,High
+"Fake jewellery pawned in bank",Fraud,High
+"Scam call center cheated multiple victims",Fraud,High
+"Fake tourist package collected advance money",Fraud,Medium
+"Lottery fraud using SMS campaign",Fraud,Medium
+"Student loan fraud using forged marksheets",Fraud,High
+"ATM fraud using duplicate card",Fraud,Medium
+"Property lease fraud by fake owner",Fraud,High
+"Elderly defrauded by false reward call",Fraud,Low
+"EMI card misuse caused financial loss",Fraud,Medium
+"Fake gold coins sold to shop owners",Fraud,Medium
+"Business invoice fraud in office",Fraud,Medium
+"Fraudulent land sale with fake boundary papers",Fraud,High
+"Fake online recharge portal cheated customers",Fraud,Low
+"Travel booking fraud delayed refunds",Fraud,Low
+"False medical reimbursement claim",Fraud,High
+"Fake charity collector took cash at doorstep",Fraud,Low
+"Billing scam in supermarket coupon counter",Fraud,Low
+"Insurance policy forgery by agent",Fraud,Medium
+"Gold investment scheme cheated investors",Fraud,High
+"Mobile wallet fraud through SIM swap",Fraud,Medium
+"Fake Google Pay helpdesk number cheated users",Fraud,Medium
+"Work-from-home job scam misused fee",Fraud,Medium
+"Fake police fine link collected money",Fraud,Low
+"Credit card reward scam caused debt",Fraud,Medium
+"Fake travel agent cheated pilgrims",Fraud,Medium
+"Digital identity theft used in loan process",Fraud,High
+"House rent fraud with fake owners",Fraud,Medium
+"Fake product reviews misled buyers",Fraud,Low
+"False cash-back email tricked customers",Fraud,Low
+"Fake university certificate issued",Fraud,High
+"Fake social media shop stole advance money",Fraud,Medium
+"School fees scam misdirected payments",Fraud,Medium
+"False delivery tracking link scammed user",Fraud,Low
+"Duplicate SIM fraud tried bank access",Fraud,Medium
+"Scam caller impersonated bank employee",Fraud,Medium
+"Loan app fraud harassed victims for money",Fraud,High
+"Fake refund link drained account",Fraud,High
+"False identity used in telecom registration",Fraud,Medium
+"Crypto trading fraud cheated youngsters",Fraud,High
+"UPI QR scam in bakery shop",Fraud,Low
+"Fraudulent scholarship announcement",Fraud,Low
+"Online loan app with hidden charges",Fraud,Medium
+"Fake buyer scammed seller on marketplace",Fraud,Medium
+"False guarantee card on electronics purchase",Fraud,Low
+"Man found dead behind warehouse with head injuries",Murder,High
+"Body discovered in river, foul play suspected",Murder,High
+"Shopkeeper stabbed during early morning robbery",Murder,High
+"Businessman shot dead during property dispute",Murder,High
+"Unidentified body found in forest area",Murder,High
+"Victim strangled in rented house bedroom",Murder,High
+"Elderly man murdered for gold jewellery",Murder,High
+"Student stabbed during college fight",Murder,High
+"Hotel staff found dead inside locked pantry room",Murder,High
+"Body dumped near railway track at midnight",Murder,High
+"Man killed for refusing extortion money",Murder,High
+"Couple murdered inside their vacation home",Murder,High
+"Victim shot during political clash",Murder,High
+"Corpse found wrapped in bedsheet near canal",Murder,High
+"Young girl found dead in abandoned building",Murder,High
+"Worker beaten to death by gang over dispute",Murder,High
+"Dead body found in public toilet complex",Murder,High
+"Victim stabbed repeatedly at bus stand",Murder,High
+"Car driver murdered and vehicle stolen",Murder,High
+"Child murdered during kidnapping attempt",Murder,High
+"Body burnt and dumped near garbage yard",Murder,High
+"Woman killed in domestic fight",Murder,High
+"Cold blooded murder reported in apartment",Murder,High
+"Fight over card game led to fatal stabbing",Murder,High
+"Mysterious death of hostel student under suspicion",Murder,High
+"Taxi driver murdered on highway route",Murder,High
+"Victim slashed with sharp weapon in street",Murder,High
+"Body found behind school compound in early hours",Murder,High
+"Youth killed in gang rivalry incident",Murder,High
+"Dead body discovered inside car trunk",Murder,High
+"Man poisoned by relatives for property share",Murder,High
+"House owner murdered during burglary attempt",Murder,High
+"Friend killed friend in sudden rage",Murder,High
+"Victim strangled inside rented room by acquaintance",Murder,High
+"Corpse found in well behind agricultural land",Murder,High
+"Fisherman beaten to death for local dispute",Murder,High
+"Taxi passenger killed driver and escaped",Murder,High
+"Body discovered with multiple stab wounds",Murder,High
+"Suspected honour killing reported in village",Murder,High
+"College teacher found dead with slash injuries",Murder,High
+"Dead body found covered in plastic bag",Murder,High
+"Child murdered by unknown kidnapper",Murder,High
+"Security guard found dead inside ATM cabin",Murder,High
+"Young woman stabbed near shopping complex",Murder,High
+"Missing woman found murdered near highway",Murder,High
+"Victim killed and dumped in water tank",Murder,High
+"Man shot inside his parked car",Murder,High
+"Corpse found half buried in farmland",Murder,High
+"Victim killed after drunken argument",Murder,High
+"Couple poisoned and house looted",Murder,High
+"Auto driver killed during late-night trip",Murder,High
+"School teacher killed by neighbor dispute",Murder,High
+"Body with rope marks found in empty plot",Murder,High
+"Boy killed by relative during quarrel",Murder,High
+"Victim murdered for personal revenge",Murder,High
+"Murder reported near lake area",Murder,High
+"Body discovered in vehicle scrap yard",Murder,High
+"Victim stabbed near tea shop",Murder,High
+"Dead body dumped in drainage canal",Murder,High
+"Victim killed for refusing forced marriage",Murder,High
+"Man found dead with bullet wounds",Murder,High
+"Body recovered with injuries behind mall",Murder,High
+"Business rivalry led to brutal murder",Murder,High
+"Corpse thrown into pond after assault",Murder,High
+"Victim killed in farmland for money",Murder,High
+"Young boy found dead near temple pond",Murder,High
+"Body found inside locked storage room",Murder,High
+"Family dispute escalated to murder",Murder,High
+"Victim slit throat by known suspect",Murder,High
+"Dead body found near construction site",Murder,High
+"Man murdered inside closed shop",Murder,High
+"Victim shot during street fight",Murder,High
+"Child found dead in isolated hut",Murder,High
+"Dead body recovered from open field",Murder,High
+"Victim strangled with rope by two attackers",Murder,High
+"Man stabbed near railway bridge",Murder,High
+"Body dumped near school playground",Murder,High
+"Domestic fight turned into murder case",Murder,High
+"Victim suffocated with pillow in room",Murder,High
+"Unknown attacker killed old woman",Murder,High
+"Dead body found under flyover bridge",Murder,High
+"Victim stabbed over parking dispute",Murder,High
+"Body burned inside deserted house",Murder,High
+"Farm worker murdered for salary issue",Murder,High
+"Miner killed in mining camp fight",Murder,High
+"Victim abducted then murdered in forest",Murder,High
+"Young man killed due to jealousy fight",Murder,High
+"Dead body found floating in canal",Murder,High
+"Man murdered near liquor shop",Murder,High
+"Body hidden under bridge stones",Murder,High
+"Killing reported inside youth hostel room",Murder,High
+"Victim died from multiple stab wounds",Murder,High
+"Dead body noticed near metro pillar",Murder,High
+"Man murdered in revenge attack",Murder,High
+"Victim killed by armed gang at night",Murder,High
+"Teenage girl murdered by stalker",Murder,High
+"Body found covered in blood near wall",Murder,High
+"Print worker strangled in printing unit",Murder,High
+"UPI fraud using fake payment receipt",Cybercrime,Medium
+"Social media account hacked by unknown person",Cybercrime,Medium
+"Online exam portal hacked by student",Cybercrime,Medium
+"OTP stolen through phishing call",Cybercrime,Medium
+"Loan app harassing user with threats",Cybercrime,High
+"Personal photos leaked through hacked cloud account",Cybercrime,High
+"ATM skimmer installed causing illegal withdrawals",Cybercrime,Medium
+"Hacker accessed bank account remotely",Cybercrime,High
+"Fake job portal collected personal documents",Cybercrime,Low
+"Unauthorized login attempts detected on laptop",Cybercrime,Low
+"QR code scam misdirected payments",Cybercrime,Medium
+"Fake customer care number drained wallet",Cybercrime,Medium
+"Ransomware encrypted shop computer",Cybercrime,High
+"Mobile SIM swapped to steal OTP",Cybercrime,High
+"E-commerce account hacked during sale",Cybercrime,Medium
+"Crypto trading scam on messaging app",Cybercrime,High
+"Fake investment website stole money",Cybercrime,High
+"Online loan fraud using stolen Aadhaar",Cybercrime,Medium
+"Fake shopping link delivered malware",Cybercrime,Low
+"Email phishing stole corporate passwords",Cybercrime,High
+"Bank app access gained via spyware",Cybercrime,High
+"Fake PayLater account opened in victim’s name",Cybercrime,Medium
+"Fake online casino app stole deposits",Cybercrime,High
+"Gift voucher scam on social media",Cybercrime,Medium
+"Card details stolen through hidden camera",Cybercrime,Medium
+"Electricity bill scam via SMS",Cybercrime,Low
+"Scam call misused UPI autopay",Cybercrime,Medium
+"Online ticket booking fraud",Cybercrime,Low
+"WiFi hacking caused data theft",Cybercrime,Medium
+"Crypto wallet siphoned by hacker",Cybercrime,High
+"Bank account drained by UPI exploit",Cybercrime,High
+"Shopping site cloning tricked users",Cybercrime,High
+"Mobile banking app tampered remotely",Cybercrime,High
+"Fake government scheme link stole payments",Cybercrime,Medium
+"School result portal hacked by attacker",Cybercrime,Medium
+"Device hacked via malicious USB",Cybercrime,Medium
+"Fraud gaming app stole coins & items",Cybercrime,Medium
+"Fake chat support stole OTP",Cybercrime,Medium
+"Browser extension recorded passwords",Cybercrime,High
+"Fake tech-support call stole access",Cybercrime,Medium
+"Scammer misused SIM activation form",Cybercrime,Low
+"Cryptocurrency mining malware installed",Cybercrime,High
+"Ad-click fraud misused phone control",Cybercrime,Medium
+"Gift card scam tricked teenagers",Cybercrime,Low
+"Fake social media followers sold",Cybercrime,Low
+"Fake chart analysis app cheated traders",Cybercrime,High
+"Teen blackmailed using stolen images",Cybercrime,High
+"Malware sent via PDF email",Cybercrime,Low
+"Job portal data breach leaked resumes",Cybercrime,High
+"Fake courier update email stole ID proof",Cybercrime,Medium
+"Ransom email demanded bitcoin",Cybercrime,High
+"Website infected causing data leaks",Cybercrime,High
+"Browser pop-ups forced scam payments",Cybercrime,Low
+"Subscription auto-charge scam",Cybercrime,Low
+"Online child harassment case registered",Cybercrime,High
+"Personal details stolen from shopping app",Cybercrime,Medium
+"SIM blocked by scammer to control account",Cybercrime,Medium
+"Remote access trojan installed silently",Cybercrime,High
+"Fake fundraising page misused money",Cybercrime,High
+"Fake online bank support cloned site",Cybercrime,High
+"Botnet attack disrupted server",Cybercrime,High
+"Influencer’s page hacked demanding money",Cybercrime,High
+"Fake recruitment email stole salary info",Cybercrime,Medium
+"Online fraud using fake credit limit",Cybercrime,Medium
+"Dating app scam emotionally & financially exploited victim",Cybercrime,High
+"Cloud account breached exposing documents",Cybercrime,High
+"Scam app auto-deducted payments monthly",Cybercrime,Medium
+"Unknown access of digital locker detected",Cybercrime,High
+"Mobile numbers sold on dark web",Cybercrime,Medium
+"Trading account hacked via phishing",Cybercrime,High
+"Fake PayTM helpdesk scammed customer",Cybercrime,Medium
+"Online pharmacy app misused card data",Cybercrime,High
+"Software cracked version installed spyware",Cybercrime,Medium
+"WhatsApp voice call fraud tricked victim",Cybercrime,High
+"Phishing malware injected into phone",Cybercrime,High
+"Online wallet debited illegally at midnight",Cybercrime,High
+"Fake crypto giveaway on YouTube",Cybercrime,Medium
+"College portal data breached",Cybercrime,High
+"Seller scammed by fake payment screenshot",Cybercrime,Medium
+"Browser hijack redirected to fake payment site",Cybercrime,Medium
+"Fake auction website cheated winners",Cybercrime,High
+"Kids game app harvested personal data",Cybercrime,Low
+"Deepfake threat blackmailed youth",Cybercrime,High
+"Online extortion for digital photos",Cybercrime,High
+"Remote desktop hack misused office PC",Cybercrime,High
+"UPI auto-debit scam drained wallet",Cybercrime,High
+"Crypto mining plug-in slowed all devices",Cybercrime,Medium
+"VPN configured illegally to bypass blocks",Cybercrime,Low
+"Fake doctors list stole patient data",Cybercrime,High
+"Cloud storage hacked through weak password",Cybercrime,High
+"Manipulated QR code stole festival donations",Cybercrime,Medium
+"Night burglary in residential bungalow, valuables missing",Burglary,High
+"Store room lock broken and cosmetics stolen",Burglary,Medium
+"Burglars entered rented house through back window",Burglary,Medium
+"Shop shutters tampered and cash box stolen",Burglary,High
+"Burglary reported in locked cottage at hill station",Burglary,High
+"Burglars stole jewelry while family was out of town",Burglary,High
+"CCTV captures masked men entering factory warehouse",Burglary,High
+"Laptop and documents stolen from office cabin",Burglary,Medium
+"House break-in reported during festival night",Burglary,High
+"Intruders stole silver utensils from backyard kitchen",Burglary,Medium
+"Burglars broke main door and stole electronics",Burglary,High
+"Multiple houses targeted by burglars in same street",Burglary,High
+"Shop burglary during early morning hours",Burglary,Medium
+"Gold chain stolen after cupboard lock broken",Burglary,High
+"Burglary attempt failed after alarm triggered",Burglary,Medium
+"University lab equipment stolen after gate broken",Burglary,High
+"Temple donation box theft after gate lock broken",Burglary,High
+"Burglars escaped with cash from money exchange shop",Burglary,High
+"Burglary at farmhouse when owner away",Burglary,High
+"Burglars entered child’s room and stole valuables",Burglary,High
+"Office stationery and electronics missing after break-in",Burglary,Medium
+"Garage burglary, spare parts stolen from racks",Burglary,Medium
+"Pharmacy break-in reported, medicines missing",Burglary,High
+"Burglary in godown, sacks of grains stolen",Burglary,Medium
+"Mall kiosk shutters broken, items stolen",Burglary,High
+"Burglars targeted locked house in narrow lane",Burglary,Medium
+"Jewelry and cash missing after house robbery attempt",Burglary,High
+"Office cash room lock broken with tool",Burglary,High
+"Burglars escaped with expensive cameras",Burglary,High
+"Back door broken using metal rod, house burgled",Burglary,High
+"Stage audio equipment stolen after hall break-in",Burglary,High
+"Burglars cut grill of window to enter bedroom",Burglary,High
+"Locker tampered in company office, cash missing",Burglary,High
+"Burglary in school, computers stolen at night",Burglary,High
+"Burglars entered house by cutting bathroom window",Burglary,High
+"Shutters of grocery shop broken and goods stolen",Burglary,Medium
+"Company server room burgled, devices stolen",Burglary,High
+"Burglary in building under renovation",Burglary,Medium
+"House ransacked after forceful entry",Burglary,High
+"Burglary occurred when family attended function",Burglary,High
+"Room lock broken in lodge, valuables stolen",Burglary,Medium
+"Burglary in jewellery exhibition stall",Burglary,High
+"Warehouse theft of packed boxes",Burglary,High
+"Office safe broken and cash stolen overnight",Burglary,High
+"Burglars targeted newly built house",Burglary,Medium
+"Petty cash stolen after office break-in",Burglary,Low
+"Burglary from shop after shutter lock cut",Burglary,High
+"House looted during power outage",Burglary,High
+"Art gallery theft after glass door broken",Burglary,High
+"Hoard of copper items stolen from workshop",Burglary,High
+"ATM room burglary with gas cutter",Burglary,High
+"Burglars damaged door and stole ornaments",Burglary,High
+"Securities locker tampered in finance office",Burglary,High
+"Back gate forcefully broken in farm house",Burglary,Medium
+"Burglary from doctor’s clinic, files missing",Burglary,Medium
+"Thieves stole musical instruments after break-in",Burglary,Medium
+"Costly furniture stolen after hall burglary",Burglary,Medium
+"Burglary at children’s hostel, belongings missing",Burglary,Medium
+"Pet store broken into and cash stolen",Burglary,Medium
+"Door hinges broken and valuables stolen inside",Burglary,High
+"House burgled during neighbors' absence",Burglary,Medium
+"Burglars climbed terrace to enter home",Burglary,High
+"Jewelry stolen while residents were asleep",Burglary,High
+"Burglars escaped with locked car keys & valuables",Burglary,High
+"Store burglary with display counters broken",Burglary,High
+"Cash stolen after burglary at petrol pump office",Burglary,High
+"Spare electronic parts stolen from shop warehouse",Burglary,Medium
+"School storage room burglary reported",Burglary,Medium
+"Door frame cut with tool in house break-in",Burglary,High
+"Cash drawers stolen from restaurant after break-in",Burglary,High
+"Burglary of expensive watches from showroom",Burglary,High
+"Burglary at wedding hall, valuables missing",Burglary,High
+"Thieves entered through terrace during night",Burglary,High
+"Security cameras damaged before burglary",Burglary,High
+"Locked home ransacked for valuables",Burglary,High
+"Burglary at NGO office, computers missing",Burglary,High
+"Costly art pieces stolen in gallery burglary",Burglary,High
+"Burglars fled with cash from ATM cabin",Burglary,High
+"Storage godown lock broken and items stolen",Burglary,Medium
+"Burglary in tailoring shop, machines stolen",Burglary,Medium
+"Petrol bunk office burglary at midnight",Burglary,Medium
+"Doors broken and ornaments missing from drawers",Burglary,High
+"Night guard threatened during burglary incident",Burglary,High
+"Shop cash counter emptied after break-in",Burglary,High
+"Store burglars escaped with electronic devices",Burglary,High
+"Family returned home to find burglary scene",Burglary,Medium
+"Residential house burgled through balcony entry",Burglary,High
+"Burglars stole gold coins from cupboard locker",Burglary,High
+"Grocery shop shutters cut with hacksaw",Burglary,High
+"Burglary of import goods from warehouse",Burglary,High
+"House targeted by burglars during vacation",Burglary,High
+"Office almirah lock broken, documents stolen",Burglary,Medium
+"Unsafe window entry led to house burglary",Burglary,Medium
+"Luxury watches stolen from bungalow",Burglary,High
+"Terrace door broken, house burgled",Burglary,High
+"Cash and mobile phones stolen after break-in",Burglary,High
+"Store broken by gang, CCTV footage checked",Burglary,High
+"Armed robbery at jewelry store with weapon threat",Robbery,High
+"Robbers snatched gold chain from pedestrian",Robbery,Medium
+"Robbery attempt on shopkeeper with knife",Robbery,High
+"Masked men looted mobile shop at night",Robbery,High
+"Handbag snatched by bikers near school",Robbery,Medium
+"Cash robbery outside ATM by two attackers",Robbery,High
+"Robbers broke into petrol bunk and stole money",Robbery,High
+"Chain snatching incident reported on main road",Robbery,Medium
+"Armed gang looted farmhouse valuables",Robbery,High
+"Youth robbed near bus depot using force",Robbery,Medium
+"Passenger robbed in auto by strangers",Robbery,Medium
+"Night robbery at bakery shop",Robbery,High
+"Muggers looted tourist near beach",Robbery,Medium
+"Man robbed while returning from bank",Robbery,High
+"Armed robbery at pawn shop",Robbery,High
+"Bikers snatched woman’s purse and escaped",Robbery,Medium
+"Robbers looted busy grocery shop",Robbery,High
+"Chain snatching reported near market junction",Robbery,Medium
+"Night-time robbery inside medical shop",Robbery,High
+"Robbers threatened vegetable vendor and took cash",Robbery,Medium
+"Couple robbed by two masked bikers",Robbery,Medium
+"Robbery attempt on laborer at night",Robbery,Medium
+"Gold pendant snatched from elderly woman",Robbery,Medium
+"Cash robbery in crowded bus",Robbery,Medium
+"Scooter rider robbed by three men near bridge",Robbery,High
+"Robbers forced entry into home and stole ornaments",Robbery,High
+"Chain and wallet snatched from passenger",Robbery,Medium
+"Roadside robbery using pepper spray",Robbery,High
+"Armed men robbed electronic store",Robbery,High
+"Shop looted at knifepoint by three youths",Robbery,High
+"Robbers snatched mobile phone during traffic jam",Robbery,Medium
+"Robbery attempt on old man outside bank",Robbery,Medium
+"Night robbery at highway toll booth",Robbery,High
+"Rickshaw passenger robbed using force",Robbery,Medium
+"Gold bangle snatching near temple",Robbery,Medium
+"Masked robbers looted warehouse",Robbery,High
+"Passenger’s bag stolen after assault",Robbery,High
+"Vegetable seller robbed by two youths",Robbery,Medium
+"House robbery attempt by armed gang",Robbery,High
+"Chain snatching while jogging in park",Robbery,Medium
+"Mobile robbed at bus stand stairs",Robbery,Medium
+"Taxi driver robbed by passenger",Robbery,High
+"Knife-point robbery at liquor store",Robbery,High
+"Wallet snatched from IT employee",Robbery,Medium
+"Armed gang robbed gold shop staff",Robbery,High
+"Bikers robbed student returning home",Robbery,Medium
+"Shop robbery during evening rush",Robbery,High
+"Robbers threatened watchman to enter bungalow",Robbery,High
+"Cash bag snatched from courier agent",Robbery,High
+"Teen robbed while chatting on phone",Robbery,Medium
+"Auto driver forced to give earnings to robbers",Robbery,Medium
+"Street robbery near cinema hall",Robbery,Medium
+"Handbag snatching by bike thieves",Robbery,Medium
+"ATM center robbery with masked attackers",Robbery,High
+"Chain snatching near bus terminal",Robbery,Medium
+"Forced entry robbery in house by strangers",Robbery,High
+"Mobile snatched inside metro",Robbery,Medium
+"Jewelry robbed during house party",Robbery,High
+"Delivery boy robbed after dropping parcel",Robbery,Medium
+"Robbery near railway station stairs",Robbery,Medium
+"Gold chain snatched at crowded fair",Robbery,Medium
+"Money stolen after assault near park",Robbery,High
+"Petrol pump cash robbed by gang",Robbery,High
+"Pedestrian robbed using threat",Robbery,Medium
+"Robbery attempt by miscreants on street",Robbery,Medium
+"Gold necklace snatched from woman",Robbery,Medium
+"Man robbed while walking alone at night",Robbery,Medium
+"Threatened family for cash & ornaments",Robbery,High
+"Wallet robbed in bus during travel",Robbery,Medium
+"House looted with weapons at midnight",Robbery,High
+"Chain snatching with minor injury",Robbery,Medium
+"Biker robbed student near tuition center",Robbery,Medium
+"Neighbour robbed shop owner using force",Robbery,High
+"Taxi passenger robbed with knife threat",Robbery,High
+"Robbery inside garments shop by two men",Robbery,High
+"Mobile snatched by trio on motorbike",Robbery,Medium
+"Mugging reported near city mall",Robbery,Medium
+"Gold locket stolen after assault",Robbery,High
+"Cash robbed from auto meter drawer",Robbery,Medium
+"House robbery by breaking kitchen window",Robbery,High
+"Chain snatching at hospital entrance",Robbery,Medium
+"Bike gangs robbed valuables on street",Robbery,High
+"Elderly man robbed outside temple",Robbery,Medium
+"Watchman attacked during house robbery",Robbery,High
+"Robbers looted shop using iron rods",Robbery,High
+"Handbag robbed by two passing bikers",Robbery,Medium
+"Petty cash robbed from vendor",Robbery,Medium
+"Chain snatching by masked snatchers",Robbery,Medium
+"Cash stolen after threatening worker",Robbery,High
+"Man robbed while buying medicine",Robbery,Medium
+"Couple attacked and robbed at park",Robbery,High
+"Knife used to rob mobile from student",Robbery,High
+"Scooty rider robbed when stopped by gang",Robbery,High
+"Bag snatched from bank clerk",Robbery,Medium
+"Home occupants locked inside during robbery",Robbery,High
+"Passenger robbed in train coach",Robbery,High
+"Jewelry robbed during celebration crowd",Robbery,High
+"Tourist robbed at heritage site",Robbery,Medium
+"Street robbery during early morning walk",Robbery,Medium
