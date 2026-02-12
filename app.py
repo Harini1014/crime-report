@@ -2,8 +2,6 @@ from flask import Flask, render_template, request, jsonify
 import os
 from datetime import datetime
 import traceback
-
-# ---- Config ----
 UPLOAD_FOLDER = 'uploads'
 STATIC_AUDIO_FOLDER = os.path.join('static')  # audio saved inside static so templates can serve it
 MAX_CONTENT_LENGTH = 10 * 1024 * 1024  # 10 MB
